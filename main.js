@@ -54,7 +54,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question('Введите путь к файлу: ', (answer) => {
+rl.question('Путь к файлу: ', (answer) => {
     try {
         morph.init(`${answer}`);
     } catch {
